@@ -1,0 +1,63 @@
+body{
+    background: gray;
+}
+
+/*#################################################*/
+
+svg {
+    width: 735px; height: 788px; zoom: 70%;
+}
+
+/*#################################################*/
+
+.map {
+    overflow: hidden;
+}
+
+/*#################################################*/
+
+.map__image{
+    width: 40%;
+    float: left;
+}
+
+/*#################################################*/
+
+.map__image > svg > a > path {
+    fill: #337896;
+    stroke: white;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+/*#################################################*/
+
+.map__image > svg > a.is-active path{
+    fill: rgb(91, 187, 99);
+}
+
+/*#################################################*/
+
+.map__list{
+    width: 50%;
+    float: right;
+}
+
+/*#################################################*/
+
+.map__list a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/*#################################################*/
+
+.map__list a.is-active{
+    color: rgb(91, 187, 99);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/*#################################################*/
